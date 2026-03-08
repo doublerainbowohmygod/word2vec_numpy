@@ -15,9 +15,13 @@ main.py            # Entry point: preprocess → train → save
 demo.ipynb         # Dataset EDA + evaluation: neighbours, analogies, t-SNE, PCA
 ```
 
-An all-in-one notebook (`word2vec_all_in_one.ipynb`) is also provided for convenience — it contains the full pipeline (training + evaluation) in a single file that can be run in Google Colab.
+An all-in-one notebook (`word2vec_all_in_one.ipynb`) is also provided for convenience — it contains the full pipeline (training + evaluation) in a single file that can be run in Google Colab (without dataset EDA).
 
 Pre-trained embeddings are included in the repository (`embeddings.npy`, `vocab.npy`, `vocab_counts.npy`, `losses.npy`), so `demo.ipynb` can be run without re-training.
+
+## Requirements:
+
+python 3.10+
 
 ## Quick start
 
