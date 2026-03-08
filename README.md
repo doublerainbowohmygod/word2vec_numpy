@@ -19,7 +19,7 @@ An all-in-one notebook (`word2vec_all_in_one.ipynb`) is also provided for conven
 
 Pre-trained embeddings are included in the repository (`embeddings.npy`, `vocab.npy`, `vocab_counts.npy`, `losses.npy`), so `demo.ipynb` can be run without re-training.
 
-## Requirements:
+## Requirements
 
 python 3.10+
 
