@@ -5,6 +5,8 @@ from word2vec.train import train
 from word2vec.config import (EMBEDDING_DIM, MIN_COUNT, EPOCHS,
                               LR_START, LR_MIN, WINDOW_SIZE, NEG_SAMPLES, SUBSAMPLE_THRESHOLD)
 
+np.random.seed(33)
+
 TXT_PATH = "data/wikitext-2-v1.txt"
 def main():
     with open(TXT_PATH, "r", encoding="utf-8") as f:

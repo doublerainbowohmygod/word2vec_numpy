@@ -88,17 +88,17 @@ Epoch 5/5  loss: 2.3406  lr: 0.000100  839s
 The embeddings capture meaningful semantic relationships. Nearest neighbours for common words are sensible:
 
 - `king` → lord, emperor, throne
-- `computer` → gaming, graphics, multiplayer, online
-- `mother` → husband, father, daughter, wife, marriage
-- `money` → pay, tickets, paid
+- `computer` → gaming, user, multiplayer
+- `mother` → husband, daughter, father
+- `money` → paying, tickets, offer
 
 Word analogies also produce reasonable results:
 
-- `king - man + woman` → throne, ruler, lord
-- `germany - berlin + london` → italy, switzerland, netherlands, austria
-- `germany - beer + tea` → austria, turkey, finland, russia
-- `hockey - ice + grass` → golf, sports, paralympic
-- `poet - novel + music` → jazz, musicians, folk, pop
+- `king - man + woman` → leinster, throne, hairan
+- `germany - berlin + london` → netherlands, italy, sweden
+- `germany - beer + tea` → russia, czech, venezuela,
+- `hockey - ice + grass` → sports, golf, paralympic
+- `poet - novel + music` → jazz, musicians, singers
 
 Some queries (e.g. `berlin`) return less coherent neighbours — likely because city names in WikiText-2 appear in diverse contexts (geography, history, culture), making the embedding more diffuse.
 
