@@ -7,7 +7,7 @@ from word2vec.config import (EMBEDDING_DIM, MIN_COUNT, EPOCHS,
 
 TXT_PATH = "data/wikitext-2-v1.txt"
 def main():
-    with open(TXT_PATH, "r") as f:
+    with open(TXT_PATH, "r", encoding="utf-8") as f:
         text = f.read()
 
     tokens = clean_text(text)

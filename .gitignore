@@ -1,3 +1,7 @@
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+venv/
+.idea/
+*.swp
+__pycache__/

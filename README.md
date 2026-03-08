@@ -22,7 +22,7 @@ Pre-trained embeddings are included in the repository (`embeddings.npy`, `vocab.
 ## Quick start
 
 ```bash
-pip install numpy scikit-learn matplotlib seaborn
+pip install -r requirements.txt
 python main.py
 jupyter notebook demo.ipynb
 ```
